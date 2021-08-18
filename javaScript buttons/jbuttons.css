@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #333;
+  background-size: cover;
+}
+
+.bcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bcontainer .gbuttons {
+  color: white;
+  background-color: black;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  padding: 5%;
+  box-shadow: 10px 5px 10px black;
+}
+
+.bcontainer .gbuttons:hover {
+  background-color: teal;
+}
